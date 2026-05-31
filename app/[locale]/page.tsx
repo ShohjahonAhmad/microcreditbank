@@ -28,7 +28,7 @@ export async function generateMetadata({
 export default async function LocaleHomePage({ params }: LocalePageProps) {
   const { locale } = await params;
   const dictionary = getDictionary(locale);
-  const phoneLink = "+998710000000";
+  const phoneNumber = "+998710000000";
 
   if (!isLocale(locale)) {
     return null;
@@ -341,7 +341,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href={`tel:${phoneLink}`}
+                href={`tel:${phoneNumber}`}
                 className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
               >
                 {dictionary.home.contact.primaryCta}
