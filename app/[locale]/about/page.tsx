@@ -65,7 +65,7 @@ export default async function AboutPage({ params }: PageProps) {
                 {dictionary.about.hero.primaryCta}
               </Link>
               <Link
-                href="mailto:info@microcreditbank.uz"
+                href={`mailto:${dictionary.loans.contact.email}`}
                 className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-amber-300 hover:bg-amber-50 hover:text-slate-950"
               >
                 {dictionary.about.hero.secondaryCta}
