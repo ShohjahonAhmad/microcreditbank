@@ -16,8 +16,167 @@
     "copy": "© 2026 Microcredit Bank"
   },
   "home": {
-    "kicker": "Localized foundation",
-    "title": "Microcredit bank website",
-    "subtitle": "The multilingual shell is ready for Uzbek, English, and Russian content."
+    "hero": {
+      "eyebrow": "Capitalbank-inspired visual system",
+      "title": "A clean, light, and premium banking presence for Uzbekistan",
+      "subtitle": "A refined foundation for a modern microcredit bank with yellow brand accents, clear typography, and multilingual content.",
+      "primaryCta": "Talk to our team",
+      "secondaryCta": "Explore products",
+      "highlights": [
+        "White surfaces",
+        "Black text",
+        "Yellow brand accents"
+      ]
+    },
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Customer support with a premium service tone."
+      },
+      {
+        "value": "3",
+        "label": "Languages supported across the interface."
+      },
+      {
+        "value": "100%",
+        "label": "Light-theme foundation with no dark page surfaces."
+      }
+    ],
+    "trust": {
+      "eyebrow": "Trust indicators",
+      "title": "Designed to feel formal, approachable, and credible",
+      "subtitle": "The layout uses calm spacing, gentle shadows, and warm accents to present a strong financial institution image without visual noise.",
+      "items": [
+        {
+          "title": "Transparent service language",
+          "text": "All sections are presented with clear labels, readable contrast, and a concise structure."
+        },
+        {
+          "title": "Locally relevant design",
+          "text": "The visual style is tailored for an Uzbek financial audience with a premium regional feel."
+        },
+        {
+          "title": "Modern but restrained",
+          "text": "Yellow is used as the primary brand color while the rest of the interface stays clean and light."
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Loan product preview",
+      "title": "Product cards with a polished banking presentation",
+      "subtitle": "Sample offers are shown as a configurable foundation for the future products section.",
+      "amountLabel": "Amount",
+      "termLabel": "Term",
+      "rateLabel": "Rate",
+      "items": [
+        {
+          "title": "Individual Loan",
+          "description": "A simple consumer product for day-to-day financial needs.",
+          "amount": "Up to 100 000 000 UZS",
+          "term": "Up to 36 months",
+          "rate": "From 26%",
+          "note": "Fast review for personal financing."
+        },
+        {
+          "title": "Business Loan",
+          "description": "Flexible financing for working capital and small business growth.",
+          "amount": "Up to 500 000 000 UZS",
+          "term": "Up to 48 months",
+          "rate": "From 24%",
+          "note": "Structured for active entrepreneurs."
+        },
+        {
+          "title": "Agricultural Loan",
+          "description": "Seasonal financing for farm operations and equipment support.",
+          "amount": "Up to 300 000 000 UZS",
+          "term": "Up to 24 months",
+          "rate": "From 22%",
+          "note": "Built around the agricultural cycle."
+        },
+        {
+          "title": "Microfinance Loan",
+          "description": "Smaller ticket support for local customers and microbusinesses.",
+          "amount": "Up to 50 000 000 UZS",
+          "term": "Up to 24 months",
+          "rate": "From 28%",
+          "note": "Simple, accessible, and readable."
+        }
+      ]
+    },
+    "market": {
+      "eyebrow": "Currency rates",
+      "title": "Indicative foreign exchange presentation",
+      "subtitle": "A clean rate widget layout that can later connect to live market data.",
+      "tableTitle": "Daily exchange snapshot",
+      "currencyLabel": "Currency",
+      "buyLabel": "Buy",
+      "sellLabel": "Sell",
+      "rateLabel": "Indicative price",
+      "calloutLabel": "Brand tone",
+      "callout": "Premium financial clarity with a light and trustworthy visual language.",
+      "rows": [
+        {
+          "currency": "USD",
+          "buy": "12 540.00 UZS",
+          "sell": "12 610.00 UZS"
+        },
+        {
+          "currency": "EUR",
+          "buy": "13 420.00 UZS",
+          "sell": "13 520.00 UZS"
+        },
+        {
+          "currency": "RUB",
+          "buy": "135.00 UZS",
+          "sell": "141.00 UZS"
+        }
+      ]
+    },
+    "calculator": {
+      "eyebrow": "Calculator preview",
+      "title": "A reusable loan calculator foundation",
+      "subtitle": "The visual structure is ready for a real calculator component and future business rules.",
+      "months": "months",
+      "inputs": {
+        "amount": "Loan amount",
+        "term": "Loan term",
+        "rate": "Interest rate"
+      },
+      "outputs": {
+        "monthly": "Monthly payment",
+        "total": "Total payment",
+        "interest": "Total interest"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ preview",
+      "title": "Frequently asked questions in a clean accordion layout",
+      "subtitle": "The accordion uses a simple accessible structure and stays fully translatable.",
+      "items": [
+        {
+          "question": "Is this a dark banking design?",
+          "answer": "No. The foundation is intentionally light, with white backgrounds, gray sections, and yellow brand accents."
+        },
+        {
+          "question": "Can the homepage be extended later?",
+          "answer": "Yes. The layout is structured so more banking sections and pages can be added without reworking the visual system."
+        },
+        {
+          "question": "Does the design support multiple languages?",
+          "answer": "Yes. Uzbek, English, and Russian content stays in dedicated translation files."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact call-to-action",
+      "title": "A bright and welcoming finish for the homepage",
+      "subtitle": "Use this section to guide visitors toward the next step while keeping the interface calm and professional.",
+      "primaryCta": "Contact support",
+      "secondaryCta": "Email us",
+      "phoneLabel": "Phone",
+      "phone": "+998 71 000 00 00",
+      "emailLabel": "Email",
+      "email": "info@microcreditbank.uz"
+    }
   }
 }

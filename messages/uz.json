@@ -16,8 +16,167 @@
     "copy": "© 2026 Mikrokredit Bank"
   },
   "home": {
-    "kicker": "Lokalizatsiya asoslari",
-    "title": "Mikrokredit bank sayti",
-    "subtitle": "Ko‘p tilli asos tayyor: o‘zbek, ingliz va rus tillari."
+    "hero": {
+      "eyebrow": "Capitalbank uslubidagi vizual tizim",
+      "title": "O‘zbekiston uchun yorug‘, toza va premium bank qiyofasi",
+      "subtitle": "Yangi mikrokredit bank uchun sariq aksentlar, o‘qilishi oson tipografika va ko‘p tilli kontentga ega puxta asos.",
+      "primaryCta": "Jamoa bilan bog‘lanish",
+      "secondaryCta": "Mahsulotlarni ko‘rish",
+      "highlights": [
+        "Oq yuzalar",
+        "Qora matn",
+        "Sariq brend aksentlari"
+      ]
+    },
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Mijozlarga premium uslubdagi xizmat ko‘rsatish."
+      },
+      {
+        "value": "3",
+        "label": "Interfeysda qo‘llab-quvvatlangan tillar soni."
+      },
+      {
+        "value": "100%",
+        "label": "Qorong‘i sahifalarsiz yorug‘ dizayn asosi."
+      }
+    ],
+    "trust": {
+      "eyebrow": "Ishonch belgiları",
+      "title": "Tartibli, samimiy va ishonchli ko‘rinish uchun yaratilgan",
+      "subtitle": "Tinch bo‘shliqlar, mayin soyalar va iliq aksentlar vizual shovqinsiz kuchli moliyaviy institut taassurotini beradi.",
+      "items": [
+        {
+          "title": "Shaffof xizmat tili",
+          "text": "Barcha bloklarda tushunarli sarlavhalar, yaxshi kontrast va ixcham tuzilma ishlatilgan."
+        },
+        {
+          "title": "Mahalliy auditoriyaga mos",
+          "text": "Vizual uslub O‘zbekiston moliyaviy auditoriyasi uchun premium va mintaqaviy ohangda moslashtirilgan."
+        },
+        {
+          "title": "Zamonaviy, ammo vazmin",
+          "text": "Sariq asosiy brend rangi sifatida qo‘llanadi, qolgan interfeys esa yorug‘ va toza qoladi."
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Mahsulotlar ko‘rinishi",
+      "title": "Bankona uslubdagi mahsulot kartalari",
+      "subtitle": "Namuna takliflar kelajakdagi mahsulotlar bo‘limi uchun sozlanadigan asos sifatida ko‘rsatilgan.",
+      "amountLabel": "Miqdor",
+      "termLabel": "Muddati",
+      "rateLabel": "Foiz",
+      "items": [
+        {
+          "title": "Individual kredit",
+          "description": "Kundalik moliyaviy ehtiyojlar uchun oddiy iste’mol krediti.",
+          "amount": "100 000 000 so‘mgacha",
+          "term": "36 oygacha",
+          "rate": "26% dan",
+          "note": "Shaxsiy ehtiyojlar uchun tezkor ko‘rib chiqish."
+        },
+        {
+          "title": "Biznes krediti",
+          "description": "Aylanma mablag‘ va kichik biznes o‘sishi uchun moslashuvchan moliyalashtirish.",
+          "amount": "500 000 000 so‘mgacha",
+          "term": "48 oygacha",
+          "rate": "24% dan",
+          "note": "Faol tadbirkorlar uchun qulay."
+        },
+        {
+          "title": "Qishloq xo‘jaligi krediti",
+          "description": "Fermer xo‘jaligi va texnika uchun mavsumiy moliyalashtirish.",
+          "amount": "300 000 000 so‘mgacha",
+          "term": "24 oygacha",
+          "rate": "22% dan",
+          "note": "Qishloq xo‘jaligi sikliga mos."
+        },
+        {
+          "title": "Mikromoliya krediti",
+          "description": "Mahalliy mijozlar va mikro biznes uchun kichik hajmdagi yordam.",
+          "amount": "50 000 000 so‘mgacha",
+          "term": "24 oygacha",
+          "rate": "28% dan",
+          "note": "Oddiy, qulay va tushunarli."
+        }
+      ]
+    },
+    "market": {
+      "eyebrow": "Valyuta kurslari",
+      "title": "Valyuta almashuv kurslari uchun yorug‘ ko‘rinish",
+      "subtitle": "Keyinchalik jonli bozor ma’lumotlariga ulash mumkin bo‘lgan toza maket.",
+      "tableTitle": "Kunlik kurslar jamlanmasi",
+      "currencyLabel": "Valyuta",
+      "buyLabel": "Sotib olish",
+      "sellLabel": "Sotish",
+      "rateLabel": "Taxminiy narx",
+      "calloutLabel": "Brend ohangi",
+      "callout": "Premium moliyaviy aniqlik yorug‘ va ishonchli vizual tilda.",
+      "rows": [
+        {
+          "currency": "USD",
+          "buy": "12 540.00 so‘m",
+          "sell": "12 610.00 so‘m"
+        },
+        {
+          "currency": "EUR",
+          "buy": "13 420.00 so‘m",
+          "sell": "13 520.00 so‘m"
+        },
+        {
+          "currency": "RUB",
+          "buy": "135.00 so‘m",
+          "sell": "141.00 so‘m"
+        }
+      ]
+    },
+    "calculator": {
+      "eyebrow": "Kalkulyator ko‘rinishi",
+      "title": "Qayta ishlatiladigan kredit kalkulyatori uchun asos",
+      "subtitle": "Vizual tuzilma keyinchalik haqiqiy kalkulyator va hisoblash qoidalari uchun tayyor.",
+      "months": "oy",
+      "inputs": {
+        "amount": "Kredit summasi",
+        "term": "Kredit muddati",
+        "rate": "Foiz stavkasi"
+      },
+      "outputs": {
+        "monthly": "Oylik to‘lov",
+        "total": "Jami to‘lov",
+        "interest": "Jami foiz"
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ ko‘rinishi",
+      "title": "Toza akkordeondagi tez-tez so‘raladigan savollar",
+      "subtitle": "Akkordeon oddiy va qulay tuzilma bilan ishlaydi hamda to‘liq tarjima qilinadi.",
+      "items": [
+        {
+          "question": "Bu qorong‘i bank dizaynimi?",
+          "answer": "Yo‘q. Asos ataylab yorug‘: oq fonlar, kulrang bo‘limlar va sariq brend aksentlari ishlatilgan."
+        },
+        {
+          "question": "Bosh sahifani keyin kengaytirish mumkinmi?",
+          "answer": "Ha. Maket yangi bank bo‘limlari va sahifalarni vizual tizimni qayta ishlamasdan qo‘shishga tayyor."
+        },
+        {
+          "question": "Bir nechta til qo‘llab-quvvatlanadimi?",
+          "answer": "Ha. O‘zbek, ingliz va rus matnlari alohida tarjima fayllarida saqlanadi."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Aloqa uchun chaqiriq",
+      "title": "Bosh sahifa uchun yorug‘ va samimiy yakun",
+      "subtitle": "Tashrif buyuruvchini keyingi bosqichga yo‘naltiring, shu bilan birga interfeysni sokin va professional saqlang.",
+      "primaryCta": "Qo‘llab-quvvatlashga murojaat qilish",
+      "secondaryCta": "Email yozish",
+      "phoneLabel": "Telefon",
+      "phone": "+998 71 000 00 00",
+      "emailLabel": "Email",
+      "email": "info@microcreditbank.uz"
+    }
   }
 }

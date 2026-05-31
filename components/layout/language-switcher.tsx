@@ -19,10 +19,10 @@ export function LanguageSwitcher({ locale, dictionary }: LanguageSwitcherProps) 
           <Link
             key={item}
             href={getLocalePath(item)}
-            className={`rounded-full px-3 py-1 text-sm font-medium transition ${
+            className={`rounded-full border px-3 py-1 text-sm font-medium transition ${
               active
-                ? "bg-amber-400 text-slate-950"
-                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                ? "border-[#FFC32D] bg-[#FFC32D] text-slate-950 shadow-sm shadow-amber-200/60"
+                : "border-slate-200 bg-white text-slate-600 hover:border-amber-200 hover:bg-amber-50 hover:text-slate-950"
             }`}
             aria-current={active ? "page" : undefined}
           >
