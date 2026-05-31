@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Container } from "@/components/ui/container";
+import { FaqAccordion } from "@/components/ui/faq-accordion";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { StatCard } from "@/components/ui/stat-card";
 import { getDictionary, isLocale } from "@/lib/i18n/dictionaries";
@@ -189,17 +190,8 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
             description={dictionary.home.faq.description}
           />
 
-          <div className="mt-10 grid gap-4 lg:grid-cols-3">
-            {dictionary.home.faq.items.map((item) => (
-              <Card key={item.question} className="p-6">
-                <details className="group">
-                  <summary className="cursor-pointer list-none text-lg font-semibold tracking-tight text-foreground">
-                    {item.question}
-                  </summary>
-                  <p className="mt-4 text-sm leading-6 text-muted-strong">{item.answer}</p>
-                </details>
-              </Card>
-            ))}
+          <div className="mt-10">
+            <FaqAccordion items={dictionary.home.faq.items} />
           </div>
         </Container>
       </section>

@@ -47,15 +47,11 @@ export function Header({ locale, dictionary }: HeaderProps) {
             className="hidden rounded-full border border-border bg-surface-strong p-1 shadow-soft lg:block"
           >
             <ul className="flex items-center gap-1">
-              {navItems.map((item, index) => (
+              {navItems.map((item) => (
                 <li key={item.label}>
                   <Link
                     href={item.href}
-                    className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-                      index === 0
-                        ? "bg-primary text-slate-950"
-                        : "text-muted-strong hover:bg-surface-muted hover:text-foreground"
-                    }`}
+                    className="rounded-full px-4 py-2 text-sm font-semibold text-muted-strong transition hover:bg-surface-muted hover:text-foreground"
                   >
                     {item.label}
                   </Link>
