@@ -11,7 +11,10 @@ type LanguageSwitcherProps = {
 
 export function LanguageSwitcher({ locale, dictionary }: LanguageSwitcherProps) {
   return (
-    <nav aria-label={dictionary.languageSwitcher.label} className="flex gap-2">
+    <nav
+      aria-label={dictionary.languageSwitcher.label}
+      className="inline-flex items-center rounded-full border border-border bg-surface-strong p-1 shadow-soft"
+    >
       {locales.map((item) => {
         const active = item === locale;
 
@@ -19,10 +22,10 @@ export function LanguageSwitcher({ locale, dictionary }: LanguageSwitcherProps) 
           <Link
             key={item}
             href={getLocalePath(item)}
-            className={`rounded-full px-3 py-1 text-sm font-medium transition ${
+            className={`rounded-full px-3.5 py-2 text-sm font-semibold transition ${
               active
-                ? "bg-amber-400 text-slate-950"
-                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                ? "bg-primary text-slate-950 shadow-[0_8px_20px_rgba(244,199,63,0.25)]"
+                : "text-muted-strong hover:bg-surface-muted hover:text-foreground"
             }`}
             aria-current={active ? "page" : undefined}
           >

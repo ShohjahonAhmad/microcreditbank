@@ -1,10 +1,15 @@
 {
   "brand": {
-    "name": "Mikrokredit Bank"
+    "name": "Mikrokredit Bank",
+    "tagline": "Xususiy mikromoliya"
   },
   "navigation": {
     "label": "Asosiy navigatsiya",
-    "home": "Bosh sahifa"
+    "home": "Bosh sahifa",
+    "strengths": "Nega biz",
+    "products": "Mahsulotlar",
+    "faq": "Savollar",
+    "contact": "Aloqa"
   },
   "languageSwitcher": {
     "label": "Til almashtirgich",
@@ -13,11 +18,136 @@
     "ru": "RU"
   },
   "footer": {
-    "copy": "© 2026 Mikrokredit Bank"
+    "copy": "© 2026 Mikrokredit Bank",
+    "description": "Ishonch, ravshanlik va o‘sish uchun yaratilgan ko‘p tilli bank dizayn asosi.",
+    "linksLabel": "Tezkor havolalar"
   },
   "home": {
-    "kicker": "Lokalizatsiya asoslari",
-    "title": "Mikrokredit bank sayti",
-    "subtitle": "Ko‘p tilli asos tayyor: o‘zbek, ingliz va rus tillari."
+    "hero": {
+      "kicker": "Bank dizayn asosi",
+      "title": "Ishonchli mikromoliya — zamonaviy va premium ko‘rinishda.",
+      "subtitle": "Xususiy mikrokredit banki uchun ko‘p tilli, sokin va ishonchli asos.",
+      "primaryAction": "Mahsulotlar",
+      "secondaryAction": "Aloqa",
+      "panelBadge": "Ishga tayyor",
+      "panelTitle": "Bu asos nimani beradi",
+      "panelDescription": "Kelajakdagi sayt uchun qayta ishlatiladigan bloklar va yagona uslub.",
+      "panelHighlights": [
+        "Bankka mos vizual ierarxiya",
+        "Qayta ishlatiladigan UI bloklari",
+        "Lokalizatsiyaga mos tuzilma"
+      ]
+    },
+    "strengths": {
+      "eyebrow": "Nega bizni tanlashadi",
+      "title": "Ishonch, tezkorlik va insoniy qo‘llab-quvvatlashga tayangan.",
+      "description": "Ushbu bloklar keyin mahsulot va korporativ sahifalarga oson moslashadi.",
+      "items": [
+        {
+          "title": "Shaffof jarayon",
+          "description": "Birinchi ekrandan boshlab aniq kutishlar va sokin ohang."
+        },
+        {
+          "title": "Tezkor ishlov",
+          "description": "Qaror qabul qilish va navigatsiya uchun sodda, tartibli tuzilma."
+        },
+        {
+          "title": "Moslashuvchan yechimlar",
+          "description": "Turli kredit va xizmat sahifalariga mos kartalar va bo‘limlar."
+        },
+        {
+          "title": "Mijozlarni qo‘llab-quvvatlash",
+          "description": "Yordam va ishonchni ko‘rinadigan qiluvchi aloqaga tayyor joylar."
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Kredit mahsulotlari",
+      "title": "Kelajakdagi kredit sahifalari uchun qayta ishlatiladigan kartalar.",
+      "description": "Keyinchalik batafsil mahsulot ma’lumotlariga ulanadigan namunaviy takliflar.",
+      "items": [
+        {
+          "name": "Yakka tartibdagi kredit",
+          "amount": "5 000 000 so‘mdan",
+          "duration": "36 oygacha",
+          "rate": "Foiz joyi",
+          "description": "Shaxsiy ehtiyojlar uchun toza karta tuzilmasi."
+        },
+        {
+          "name": "Biznes krediti",
+          "amount": "25 000 000 so‘mdan",
+          "duration": "48 oygacha",
+          "rate": "Foiz joyi",
+          "description": "Kichik biznes va aylanma mablag‘lar uchun premium joylashuv."
+        },
+        {
+          "name": "Qishloq xo‘jaligi krediti",
+          "amount": "15 000 000 so‘mdan",
+          "duration": "60 oygacha",
+          "rate": "Foiz joyi",
+          "description": "Mavsumiy ehtiyojlar va hududiy o‘sish uchun mos."
+        },
+        {
+          "name": "Mikromoliya krediti",
+          "amount": "3 000 000 so‘mdan",
+          "duration": "24 oygacha",
+          "rate": "Foiz joyi",
+          "description": "Kichik va tezkor foydalanish holatlari uchun ixcham yechim."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Bank ko‘rsatkichlari",
+      "title": "Ishonch uyg‘otadigan raqamlar.",
+      "description": "Kelajakdagi ishonch va samaradorlik bo‘limi uchun joy tutuvchi metrikalar.",
+      "items": [
+        {
+          "value": "3",
+          "label": "Til",
+          "hint": "O‘zbek, ingliz va rus tili qo‘llab-quvvatlanadi."
+        },
+        {
+          "value": "24/7",
+          "label": "Qo‘llab-quvvatlash",
+          "hint": "Interfeys aloqa va xizmat ma’lumotlari uchun joy qoldiradi."
+        },
+        {
+          "value": "4",
+          "label": "Karta turi",
+          "hint": "Qayta ishlatiladigan komponentlar tayyor."
+        },
+        {
+          "value": "100%",
+          "label": "Moslashuvchan",
+          "hint": "Mobilga mos layoutlar asosga singdirilgan."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Savollar bo‘limi",
+      "title": "Ko‘p so‘raladigan savollar uchun akkordeon tayyor.",
+      "description": "Kontent tuzilmasi tarjimaga mos va keyin kengaytirish oson.",
+      "items": [
+        {
+          "question": "Bu asosga keyin yana sahifalar qo‘shish mumkinmi?",
+          "answer": "Ha. Dizayn tizimi modulli bo‘lib, kelajakdagi sahifalar bir xil token va komponentlardan foydalanadi."
+        },
+        {
+          "question": "Kontent to‘liq lokalizatsiya qilinganmi?",
+          "answer": "Ko‘rinadigan matnlar strukturalangan tarjima fayllaridan olinadi, shuning uchun har bir til alohida yangilanadi."
+        },
+        {
+          "question": "Bu yerda bank operatsiyalari bormi?",
+          "answer": "Yo‘q. Bu faqat axborot beruvchi sayt asosi bo‘lib, autentifikatsiya va tranzaksiyalar mavjud emas."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Aloqa chaqiruvi",
+      "title": "Asosni to‘liq saytga aylantirishga tayyormisiz?",
+      "description": "Bu joydan aloqa ma’lumotlari, filiallar yoki keyingi frontend-only forma uchun foydalaning.",
+      "primaryAction": "Bog‘lanish",
+      "secondaryAction": "Batafsil"
+    }
   }
 }

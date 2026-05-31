@@ -1,10 +1,15 @@
 {
   "brand": {
-    "name": "Microcredit Bank"
+    "name": "Microcredit Bank",
+    "tagline": "Private microfinance"
   },
   "navigation": {
     "label": "Main navigation",
-    "home": "Home"
+    "home": "Home",
+    "strengths": "Why us",
+    "products": "Products",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "languageSwitcher": {
     "label": "Language switcher",
@@ -13,11 +18,136 @@
     "ru": "RU"
   },
   "footer": {
-    "copy": "© 2026 Microcredit Bank"
+    "copy": "© 2026 Microcredit Bank",
+    "description": "A premium multilingual banking foundation designed for trust, clarity, and growth.",
+    "linksLabel": "Quick links"
   },
   "home": {
-    "kicker": "Localized foundation",
-    "title": "Microcredit bank website",
-    "subtitle": "The multilingual shell is ready for Uzbek, English, and Russian content."
+    "hero": {
+      "kicker": "Banking design foundation",
+      "title": "Trusted microfinance with a premium, modern feel.",
+      "subtitle": "A bilingual-ready shell for a private microcredit bank, built to feel calm, clear, and reliable.",
+      "primaryAction": "View products",
+      "secondaryAction": "Contact us",
+      "panelBadge": "Ready for launch",
+      "panelTitle": "What this foundation gives you",
+      "panelDescription": "Reusable layout pieces that keep the future product site consistent.",
+      "panelHighlights": [
+        "Banking-first visual hierarchy",
+        "Reusable UI primitives",
+        "Localization-friendly structure"
+      ]
+    },
+    "strengths": {
+      "eyebrow": "Why choose us",
+      "title": "Built on trust, speed, and human support.",
+      "description": "Core messages that can scale into full product and corporate pages later.",
+      "items": [
+        {
+          "title": "Transparent process",
+          "description": "Clear expectations and a calm tone from the first screen."
+        },
+        {
+          "title": "Fast processing",
+          "description": "Simple, structured layouts for quick decisions and easy navigation."
+        },
+        {
+          "title": "Flexible solutions",
+          "description": "Cards and sections that adapt to different loan and service pages."
+        },
+        {
+          "title": "Customer support",
+          "description": "Contact-ready areas that keep help and trust visible."
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "Loan products",
+      "title": "Reusable product cards for future lending pages.",
+      "description": "Sample offers that can later connect to detailed product information.",
+      "items": [
+        {
+          "name": "Individual loan",
+          "amount": "From UZS 5,000,000",
+          "duration": "Up to 36 months",
+          "rate": "Interest placeholder",
+          "description": "A clean card structure for personal borrowing options."
+        },
+        {
+          "name": "Business loan",
+          "amount": "From UZS 25,000,000",
+          "duration": "Up to 48 months",
+          "rate": "Interest placeholder",
+          "description": "A premium layout for SME financing and working capital."
+        },
+        {
+          "name": "Agricultural loan",
+          "amount": "From UZS 15,000,000",
+          "duration": "Up to 60 months",
+          "rate": "Interest placeholder",
+          "description": "Designed for seasonal needs and rural growth stories."
+        },
+        {
+          "name": "Microfinance loan",
+          "amount": "From UZS 3,000,000",
+          "duration": "Up to 24 months",
+          "rate": "Interest placeholder",
+          "description": "Compact, lightweight, and ready for quick-use cases."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Banking signals",
+      "title": "Numbers that build confidence.",
+      "description": "Placeholder metrics for a future trust and performance section.",
+      "items": [
+        {
+          "value": "3",
+          "label": "Languages",
+          "hint": "Uzbek, English, and Russian content are supported."
+        },
+        {
+          "value": "24/7",
+          "label": "Support",
+          "hint": "The interface leaves room for contact and service details."
+        },
+        {
+          "value": "4",
+          "label": "Product cards",
+          "hint": "Reusable components are ready for a full products page."
+        },
+        {
+          "value": "100%",
+          "label": "Responsive",
+          "hint": "Mobile-first layouts are designed into the foundation."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ preview",
+      "title": "Accordion-ready answers for common questions.",
+      "description": "The content structure is translatable and easy to expand later.",
+      "items": [
+        {
+          "question": "Can this foundation support more pages later?",
+          "answer": "Yes. The design system is modular, so future pages can reuse the same tokens and components."
+        },
+        {
+          "question": "Is the content fully localized?",
+          "answer": "The visible text comes from structured translation files, so each locale can be updated independently."
+        },
+        {
+          "question": "Does this include banking workflows?",
+          "answer": "No. It is an informational website foundation only, with no authentication or transactions."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact CTA",
+      "title": "Ready to turn the foundation into a full website?",
+      "description": "Use this area for contact details, branch information, or a future frontend-only form.",
+      "primaryAction": "Get in touch",
+      "secondaryAction": "See details"
+    }
   }
 }

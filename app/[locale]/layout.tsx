@@ -31,7 +31,7 @@ export default async function LocaleLayout({
   const normalizedLocale = locale as Locale;
 
   return (
-    <div className="flex min-h-screen flex-col bg-white text-slate-950">
+    <div className="flex min-h-screen flex-col overflow-x-hidden bg-background text-foreground">
       <Header locale={normalizedLocale} dictionary={dictionary} />
       <main className="flex-1">{children}</main>
       <Footer locale={normalizedLocale} dictionary={dictionary} />
