@@ -31,6 +31,14 @@ export function Footer({ locale, dictionary }: FooterProps) {
             <FooterLink href={getLocalePath(locale)} label={dictionary.navigation.home} />
             <FooterLink href={getLocalePath(locale, "about")} label={dictionary.navigation.about} />
             <FooterLink href={getLocalePath(locale, "loans")} label={dictionary.navigation.loans} />
+            <FooterLink
+              href={getLocalePath(locale, "loan-calculator")}
+              label={dictionary.navigation.loanCalculator}
+            />
+            <FooterLink
+              href={getLocalePath(locale, "currency-converter")}
+              label={dictionary.navigation.currencyConverter}
+            />
           </div>
         </div>
       </div>
