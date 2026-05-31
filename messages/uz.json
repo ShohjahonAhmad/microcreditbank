@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Mikrokredit Bank",
+    "name": "Mikromoliya Tashkiloti",
     "location": "O‘zbekiston"
   },
   "navigation": {
@@ -23,8 +23,8 @@
     "skipToContent": "Kontentga o‘tish"
   },
   "footer": {
-    "copy": "© 2026 Mikrokredit Bank",
-    "summary": "O‘zbekistondagi xususiy mikrokredit banki.",
+    "copy": "© 2026 Mikromoliya Tashkiloti",
+    "summary": "O‘zbekistondagi xususiy mikromoliya tashkiloti.",
     "linksLabel": "Tezkor havolalar"
   },
   "about": {
@@ -34,7 +34,7 @@
     },
     "hero": {
       "eyebrow": "Bank haqida",
-      "title": "Aniqlik, ishonch va mahalliy xizmatga tayangan xususiy mikrokredit bank",
+      "title": "Aniqlik, ishonch va mahalliy xizmatga tayangan xususiy mikromoliya tashkilot",
       "subtitle": "Ushbu namunaviy korporativ hikoya premium tuyg‘u, sodda til va keyinchalik kengaytirish mumkin bo‘lgan kontent bilan zamonaviy bank brendi uchun tayyorlangan.",
       "primaryCta": "Kredit mahsulotlarini ko‘rish",
       "secondaryCta": "Jamoamiz bilan bog‘lanish",
@@ -271,17 +271,17 @@
       "primaryCta": "Hozir qo‘ng‘iroq qiling",
       "secondaryCta": "Email yozish",
       "phoneLabel": "Telefon",
-      "phone": "+998 71 000 00 00",
-      "phoneLink": "+998710000000",
+      "phone": "+998 95 505 22 43",
+      "phoneLink": "+998955052243",
       "emailLabel": "Email",
-      "email": "info@microcreditbank.uz"
+      "email": "invest.1985@mail.ru"
     }
   },
   "home": {
     "hero": {
       "eyebrow": "Capitalbank uslubidagi vizual tizim",
       "title": "O‘zbekiston uchun yorug‘, toza va premium bank qiyofasi",
-      "subtitle": "Yangi mikrokredit bank uchun sariq aksentlar, o‘qilishi oson tipografika va ko‘p tilli kontentga ega puxta asos.",
+      "subtitle": "Yangi mikromoliya tashkilot uchun sariq aksentlar, o‘qilishi oson tipografika va ko‘p tilli kontentga ega puxta asos.",
       "primaryCta": "Jamoa bilan bog‘lanish",
       "secondaryCta": "Mahsulotlarni ko‘rish",
       "highlights": [
@@ -445,10 +445,10 @@
       "primaryCta": "Qo‘llab-quvvatlashga murojaat qilish",
       "secondaryCta": "Email yozish",
       "phoneLabel": "Telefon",
-      "phone": "+998 71 000 00 00",
-      "phoneLink": "+998710000000",
+      "phone": "+998 95 505 22 43",
+      "phoneLink": "+998955052243",
       "emailLabel": "Email",
-      "email": "info@microcreditbank.uz"
+      "email": "invest.1985@mail.ru"
     }
   },
   "loanCalculator": {
@@ -609,13 +609,13 @@
         },
         {
           "label": "Telefon",
-          "value": "+998 71 000 00 00",
-          "href": "tel:+998710000000"
+          "value": "+998 95 505 22 43",
+          "href": "tel:+998955052243"
         },
         {
           "label": "Email",
-          "value": "info@microcreditbank.uz",
-          "href": "mailto:info@microcreditbank.uz"
+          "value": "invest.1985@mail.ru",
+          "href": "mailto:invest.1985@mail.ru"
         },
         {
           "label": "Ish vaqti",
@@ -643,7 +643,7 @@
       "note": "Bu faqat maket uchun demo forma.",
       "success": "Rahmat. Bu demo forma hali xabar yubormaydi."
     },
-    "phone": "+998 71 000 00 00",
-    "phoneLink": "+998710000000"
+    "phone": "+998 95 505 22 43",
+    "phoneLink": "+998955052243"
   }
 }

@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Microcredit Bank",
+    "name": "Microfinance Organization",
     "location": "Uzbekistan"
   },
   "navigation": {
@@ -23,8 +23,8 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "copy": "© 2026 Microcredit Bank",
-    "summary": "Private microcredit banking in Uzbekistan.",
+    "copy": "© 2026 Microfinance institution",
+    "summary": "Private microfinance organization in Uzbekistan.",
     "linksLabel": "Quick links"
   },
   "about": {
@@ -34,7 +34,7 @@
     },
     "hero": {
       "eyebrow": "About the bank",
-      "title": "A private microcredit bank built around clarity, trust, and local service",
+      "title": "A private microfinance organization built around clarity, trust, and local service",
       "subtitle": "This placeholder company story is structured for a modern banking brand with a premium feel, simple language, and content that can grow over time.",
       "primaryCta": "Explore loan products",
       "secondaryCta": "Contact our team",
@@ -47,7 +47,7 @@
     "overview": {
       "eyebrow": "Company overview",
       "title": "A focused financial institution for everyday lending needs",
-      "description": "Microcredit Bank is presented here as a modern private bank concept with a calm digital presence, clear product communication, and a strong local identity.",
+      "description": "Microfinance Organization is presented here as a modern private bank concept with a calm digital presence, clear product communication, and a strong local identity.",
       "facts": [
         {
           "label": "Head office",
@@ -271,17 +271,17 @@
       "primaryCta": "Call now",
       "secondaryCta": "Email us",
       "phoneLabel": "Phone",
-      "phone": "+998 71 000 00 00",
-      "phoneLink": "+998710000000",
+      "phone": "+998 95 505 22 43",
+      "phoneLink": "+998955052243",
       "emailLabel": "Email",
-      "email": "info@microcreditbank.uz"
+      "email": "invest.1985@mail.ru"
     }
   },
   "home": {
     "hero": {
       "eyebrow": "Capitalbank-inspired visual system",
       "title": "A clean, light, and premium banking presence for Uzbekistan",
-      "subtitle": "A refined foundation for a modern microcredit bank with yellow brand accents, clear typography, and multilingual content.",
+      "subtitle": "A refined foundation for a modern microfinance bank with yellow brand accents, clear typography, and multilingual content.",
       "primaryCta": "Talk to our team",
       "secondaryCta": "Explore products",
       "highlights": [
@@ -445,10 +445,10 @@
       "primaryCta": "Contact support",
       "secondaryCta": "Email us",
       "phoneLabel": "Phone",
-      "phone": "+998 71 000 00 00",
-      "phoneLink": "+998710000000",
+      "phone": "+998 95 505 22 43",
+      "phoneLink": "+998955052243",
       "emailLabel": "Email",
-      "email": "info@microcreditbank.uz"
+      "email": "invest.1985@mail.ru"
     }
   },
   "loanCalculator": {
@@ -561,7 +561,7 @@
   },
   "faq": {
     "meta": {
-      "title": "Frequently Asked Questions - Microcredit Bank",
+      "title": "Frequently Asked Questions - Microfinance Organization",
       "description": "Find quick answers about contacting the bank, service hours, and language support."
     },
     "hero": {
@@ -609,13 +609,13 @@
         },
         {
           "label": "Phone",
-          "value": "+998 71 000 00 00",
-          "href": "tel:+998710000000"
+          "value": "+998 95 505 22 43",
+          "href": "tel:+95 505 22 43"
         },
         {
           "label": "Email",
-          "value": "info@microcreditbank.uz",
-          "href": "mailto:info@microcreditbank.uz"
+          "value": "invest.1985@mail.ru",
+          "href": "mailto:invest.1985@mail.ru"
         },
         {
           "label": "Working hours",
@@ -643,7 +643,7 @@
       "note": "This is a demo form for layout purposes only.",
       "success": "Thanks. This demo form does not send messages yet."
     },
-    "phone": "+998 71 000 00 00",
-    "phoneLink": "+998710000000"
+    "phone": "+998 95 505 22 43",
+    "phoneLink": "+998955052243"
   }
 }
