@@ -12,6 +12,9 @@
     "en": "EN",
     "ru": "RU"
   },
+  "accessibility": {
+    "skipToContent": "Kontentga o‘tish"
+  },
   "footer": {
     "copy": "© 2026 Mikrokredit Bank"
   },
@@ -112,6 +115,7 @@
       "buyLabel": "Sotib olish",
       "sellLabel": "Sotish",
       "rateLabel": "Taxminiy narx",
+      "location": "Toshkent",
       "calloutLabel": "Brend ohangi",
       "callout": "Premium moliyaviy aniqlik yorug‘ va ishonchli vizual tilda.",
       "rows": [
@@ -141,6 +145,14 @@
         "amount": "Kredit summasi",
         "term": "Kredit muddati",
         "rate": "Foiz stavkasi"
+      },
+      "sample": {
+        "amount": "25 000 000 so‘m",
+        "term": "36",
+        "rate": "26%",
+        "monthly": "1 035 000 so‘m",
+        "total": "37 260 000 so‘m",
+        "interest": "12 260 000 so‘m"
       },
       "outputs": {
         "monthly": "Oylik to‘lov",
@@ -175,6 +187,7 @@
       "secondaryCta": "Email yozish",
       "phoneLabel": "Telefon",
       "phone": "+998 71 000 00 00",
+      "phoneLink": "+998710000000",
       "emailLabel": "Email",
       "email": "info@microcreditbank.uz"
     }

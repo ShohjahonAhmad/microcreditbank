@@ -12,6 +12,9 @@
     "en": "EN",
     "ru": "RU"
   },
+  "accessibility": {
+    "skipToContent": "Skip to content"
+  },
   "footer": {
     "copy": "© 2026 Microcredit Bank"
   },
@@ -95,7 +98,7 @@
         },
         {
           "title": "Microfinance Loan",
-          "description": "Smaller ticket support for local customers and microbusinesses.",
+          "description": "Smaller loan amounts for local customers and microbusinesses.",
           "amount": "Up to 50 000 000 UZS",
           "term": "Up to 24 months",
           "rate": "From 28%",
@@ -112,6 +115,7 @@
       "buyLabel": "Buy",
       "sellLabel": "Sell",
       "rateLabel": "Indicative price",
+      "location": "Tashkent",
       "calloutLabel": "Brand tone",
       "callout": "Premium financial clarity with a light and trustworthy visual language.",
       "rows": [
@@ -141,6 +145,14 @@
         "amount": "Loan amount",
         "term": "Loan term",
         "rate": "Interest rate"
+      },
+      "sample": {
+        "amount": "25 000 000 UZS",
+        "term": "36",
+        "rate": "26%",
+        "monthly": "1 035 000 UZS",
+        "total": "37 260 000 UZS",
+        "interest": "12 260 000 UZS"
       },
       "outputs": {
         "monthly": "Monthly payment",
@@ -175,6 +187,7 @@
       "secondaryCta": "Email us",
       "phoneLabel": "Phone",
       "phone": "+998 71 000 00 00",
+      "phoneLink": "+998710000000",
       "emailLabel": "Email",
       "email": "info@microcreditbank.uz"
     }

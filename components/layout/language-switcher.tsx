@@ -21,7 +21,7 @@ export function LanguageSwitcher({ locale, dictionary }: LanguageSwitcherProps) 
             href={getLocalePath(item)}
             className={`rounded-full border px-3 py-1 text-sm font-medium transition ${
               active
-                ? "border-[#FFC32D] bg-[#FFC32D] text-slate-950 shadow-sm shadow-amber-200/60"
+                ? "border-[var(--brand)] bg-[var(--brand)] text-slate-950 shadow-sm shadow-amber-200/60"
                 : "border-slate-200 bg-white text-slate-600 hover:border-amber-200 hover:bg-amber-50 hover:text-slate-950"
             }`}
             aria-current={active ? "page" : undefined}

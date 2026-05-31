@@ -28,14 +28,13 @@ export async function generateMetadata({
 export default async function LocaleHomePage({ params }: LocalePageProps) {
   const { locale } = await params;
   const dictionary = getDictionary(locale);
-  const phoneNumber = "+998710000000";
 
   if (!isLocale(locale)) {
     return null;
   }
 
   return (
-    <div className="bg-white">
+    <>
       <section className="relative overflow-hidden bg-white px-4 pb-16 pt-12 sm:px-6 lg:px-8 lg:pb-24 lg:pt-20">
         <div className="mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="relative z-10 space-y-8">
@@ -55,7 +54,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-full bg-[#FFC32D] px-6 py-3 text-sm font-semibold text-slate-950 shadow-sm shadow-amber-200/70 transition hover:-translate-y-0.5 hover:shadow-md"
+                className="inline-flex items-center justify-center rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-slate-950 shadow-sm shadow-amber-200/70 transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 {dictionary.home.hero.primaryCta}
               </Link>
@@ -80,7 +79,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
           </div>
 
           <div className="relative">
-            <div className="absolute -left-10 top-6 h-28 w-28 rounded-full bg-[#FFC32D]/15 blur-2xl" />
+            <div className="absolute -left-10 top-6 h-28 w-28 rounded-full bg-amber-200/40 blur-2xl" />
             <div className="absolute -right-8 bottom-0 h-40 w-40 rounded-full bg-slate-200/60 blur-3xl" />
 
             <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-[0_25px_80px_rgba(15,23,42,0.08)]">
@@ -95,7 +94,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                     </h2>
                   </div>
                   <span className="rounded-full bg-amber-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-slate-700">
-                    Tashkent
+                    {dictionary.home.market.location}
                   </span>
                 </div>
 
@@ -123,7 +122,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                   ))}
                 </div>
 
-                <div className="mt-6 rounded-2xl bg-[#FFC32D] p-5 text-slate-950">
+                <div className="mt-6 rounded-2xl bg-[var(--brand)] p-5 text-slate-950">
                   <p className="text-sm font-semibold uppercase tracking-[0.2em]">
                     {dictionary.home.market.calloutLabel}
                   </p>
@@ -169,7 +168,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                 key={item.title}
                 className="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-6"
               >
-                <div className="h-1.5 w-16 rounded-full bg-[#FFC32D]" />
+                <div className="h-1.5 w-16 rounded-full bg-[var(--brand)]" />
                 <h3 className="mt-5 text-xl font-semibold text-slate-950">
                   {item.title}
                 </h3>
@@ -257,7 +256,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                   {dictionary.home.calculator.inputs.amount}
                 </p>
                 <p className="mt-3 text-lg font-semibold text-slate-950">
-                  25 000 000 UZS
+                  {dictionary.home.calculator.sample.amount}
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white p-4">
@@ -265,7 +264,8 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                   {dictionary.home.calculator.inputs.term}
                 </p>
                 <p className="mt-3 text-lg font-semibold text-slate-950">
-                  36 {dictionary.home.calculator.months}
+                  {dictionary.home.calculator.sample.term}{" "}
+                  {dictionary.home.calculator.months}
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-200 bg-white p-4">
@@ -273,7 +273,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
                   {dictionary.home.calculator.inputs.rate}
                 </p>
                 <p className="mt-3 text-lg font-semibold text-slate-950">
-                  26%
+                  {dictionary.home.calculator.sample.rate}
                 </p>
               </div>
             </div>
@@ -281,15 +281,15 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
             <div className="mt-6 grid gap-4 md:grid-cols-3">
               <ResultCard
                 label={dictionary.home.calculator.outputs.monthly}
-                value="1 035 000 UZS"
+                value={dictionary.home.calculator.sample.monthly}
               />
               <ResultCard
                 label={dictionary.home.calculator.outputs.total}
-                value="37 260 000 UZS"
+                value={dictionary.home.calculator.sample.total}
               />
               <ResultCard
                 label={dictionary.home.calculator.outputs.interest}
-                value="12 260 000 UZS"
+                value={dictionary.home.calculator.sample.interest}
               />
             </div>
           </div>
@@ -327,7 +327,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
 
           <div
             id="contact"
-            className="rounded-[1.75rem] border border-[#FFC32D]/40 bg-[#fff9e5] p-6"
+            className="rounded-[1.75rem] border border-amber-200 bg-amber-50 p-6"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
               {dictionary.home.contact.eyebrow}
@@ -341,7 +341,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href={`tel:${phoneNumber}`}
+                href={`tel:${dictionary.home.contact.phoneLink}`}
                 className="inline-flex items-center justify-center rounded-full bg-slate-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800"
               >
                 {dictionary.home.contact.primaryCta}
@@ -367,7 +367,7 @@ export default async function LocaleHomePage({ params }: LocalePageProps) {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

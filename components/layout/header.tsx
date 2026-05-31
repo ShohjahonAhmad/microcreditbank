@@ -15,8 +15,14 @@ export function Header({ locale, dictionary }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-4 py-4 sm:px-6 lg:px-8">
+        <Link
+          href="#main-content"
+          className="sr-only rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-slate-950 focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50"
+        >
+          {dictionary.accessibility.skipToContent}
+        </Link>
         <Link href={getLocalePath(locale)} className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#FFC32D] text-sm font-bold text-slate-950 shadow-sm shadow-amber-200/60">
+          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[var(--brand)] text-sm font-bold text-slate-950 shadow-sm shadow-amber-200/60">
             MB
           </span>
           <span className="flex flex-col">

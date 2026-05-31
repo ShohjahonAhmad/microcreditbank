@@ -12,6 +12,9 @@
     "en": "EN",
     "ru": "RU"
   },
+  "accessibility": {
+    "skipToContent": "Перейти к содержимому"
+  },
   "footer": {
     "copy": "© 2026 Микрокредит Банк"
   },
@@ -31,7 +34,7 @@
     "stats": [
       {
         "value": "24/7",
-        "label": "Поддержка клиентов в премиальном формате."
+        "label": "Поддержка клиентов в премиальном формате"
       },
       {
         "value": "3",
@@ -112,6 +115,7 @@
       "buyLabel": "Покупка",
       "sellLabel": "Продажа",
       "rateLabel": "Ориентир",
+      "location": "Ташкент",
       "calloutLabel": "Тон бренда",
       "callout": "Премиальная финансовая ясность в светлой и надёжной визуальной подаче.",
       "rows": [
@@ -141,6 +145,14 @@
         "amount": "Сумма кредита",
         "term": "Срок кредита",
         "rate": "Процентная ставка"
+      },
+      "sample": {
+        "amount": "25 000 000 UZS",
+        "term": "36",
+        "rate": "26%",
+        "monthly": "1 035 000 UZS",
+        "total": "37 260 000 UZS",
+        "interest": "12 260 000 UZS"
       },
       "outputs": {
         "monthly": "Ежемесячный платёж",
@@ -175,6 +187,7 @@
       "secondaryCta": "Написать на email",
       "phoneLabel": "Телефон",
       "phone": "+998 71 000 00 00",
+      "phoneLink": "+998710000000",
       "emailLabel": "Email",
       "email": "info@microcreditbank.uz"
     }
