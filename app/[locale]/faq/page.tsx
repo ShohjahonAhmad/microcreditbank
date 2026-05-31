@@ -102,10 +102,10 @@ export default async function LocaleFaqPage({ params }: LocalePageProps) {
                 {dictionary.navigation.contact}
               </Link>
               <Link
-                href="tel:+998710000000"
+                href={`tel:${dictionary.contact.phoneLink}`}
                 className="inline-flex w-full items-center justify-center rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-amber-300 hover:bg-amber-50 hover:text-slate-950"
               >
-                {dictionary.contact.details.items[1].value}
+                {dictionary.contact.phone}
               </Link>
             </div>
           </aside>

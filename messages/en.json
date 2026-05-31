@@ -561,7 +561,7 @@
   },
   "faq": {
     "meta": {
-      "title": "FAQ",
+      "title": "Frequently Asked Questions - Microcredit Bank",
       "description": "Find quick answers about contacting the bank, service hours, and language support."
     },
     "hero": {
@@ -640,7 +640,10 @@
         "subject": "How can we help?",
         "message": "Share the details of your request"
       },
-      "note": "We usually reply within one business day."
-    }
+      "note": "This is a demo form for layout purposes only.",
+      "success": "Thanks. This demo form does not send messages yet."
+    },
+    "phone": "+998 71 000 00 00",
+    "phoneLink": "+998710000000"
   }
 }

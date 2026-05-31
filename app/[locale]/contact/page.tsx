@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { SectionHeading } from "@/components/content/section-heading";
+import { ContactForm } from "@/components/forms/contact-form";
 import { getDictionary, isLocale } from "@/lib/i18n/dictionaries";
 
 type LocalePageProps = {
@@ -85,61 +86,7 @@ export default async function LocaleContactPage({ params }: LocalePageProps) {
               {dictionary.contact.form.subtitle}
             </p>
 
-            <form className="mt-8 grid gap-5">
-              <div className="grid gap-5 sm:grid-cols-2">
-                <Field
-                  label={dictionary.contact.form.fullNameLabel}
-                  placeholder={dictionary.contact.form.placeholders.fullName}
-                  name="fullName"
-                  autoComplete="name"
-                />
-                <Field
-                  label={dictionary.contact.form.emailLabel}
-                  placeholder={dictionary.contact.form.placeholders.email}
-                  name="email"
-                  type="email"
-                  autoComplete="email"
-                />
-              </div>
-
-              <div className="grid gap-5 sm:grid-cols-2">
-                <Field
-                  label={dictionary.contact.form.phoneLabel}
-                  placeholder={dictionary.contact.form.placeholders.phone}
-                  name="phone"
-                  type="tel"
-                  autoComplete="tel"
-                />
-                <Field
-                  label={dictionary.contact.form.subjectLabel}
-                  placeholder={dictionary.contact.form.placeholders.subject}
-                  name="subject"
-                />
-              </div>
-
-              <label className="grid gap-2">
-                <span className="text-sm font-medium text-slate-700">
-                  {dictionary.contact.form.messageLabel}
-                </span>
-                <textarea
-                  name="message"
-                  rows={6}
-                  placeholder={dictionary.contact.form.placeholders.message}
-                  className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-base text-slate-950 outline-none transition placeholder:text-slate-400 focus:border-amber-300 focus:ring-4 focus:ring-amber-100"
-                />
-              </label>
-
-              <p className="rounded-2xl bg-slate-50 px-4 py-3 text-sm leading-6 text-slate-600">
-                {dictionary.contact.form.note}
-              </p>
-
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-slate-950 shadow-sm shadow-amber-200/70 transition hover:-translate-y-0.5 hover:shadow-md"
-              >
-                {dictionary.contact.form.submit}
-              </button>
-            </form>
+            <ContactForm content={dictionary.contact.form} />
           </div>
         </div>
       </section>
@@ -171,32 +118,5 @@ function InfoCard({
         </p>
       )}
     </div>
-  );
-}
-
-function Field({
-  label,
-  name,
-  placeholder,
-  type = "text",
-  autoComplete,
-}: {
-  label: string;
-  name: string;
-  placeholder: string;
-  type?: string;
-  autoComplete?: string;
-}) {
-  return (
-    <label className="grid gap-2">
-      <span className="text-sm font-medium text-slate-700">{label}</span>
-      <input
-        name={name}
-        type={type}
-        autoComplete={autoComplete}
-        placeholder={placeholder}
-        className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-base text-slate-950 outline-none transition placeholder:text-slate-400 focus:border-amber-300 focus:ring-4 focus:ring-amber-100"
-      />
-    </label>
   );
 }

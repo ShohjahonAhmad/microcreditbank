@@ -561,7 +561,7 @@
   },
   "faq": {
     "meta": {
-      "title": "FAQ",
+      "title": "Tez-tez so‘raladigan savollar - Microcredit Bank",
       "description": "Bank bilan bog‘lanish, ish vaqti va til qo‘llovi haqida tezkor javoblar."
     },
     "hero": {
@@ -640,7 +640,10 @@
         "subject": "Qanday yordam bera olamiz?",
         "message": "So‘rovingiz tafsilotlarini yozing"
       },
-      "note": "Odatda bir ish kuni ichida javob beramiz."
-    }
+      "note": "Bu faqat maket uchun demo forma.",
+      "success": "Rahmat. Bu demo forma hali xabar yubormaydi."
+    },
+    "phone": "+998 71 000 00 00",
+    "phoneLink": "+998710000000"
   }
 }
