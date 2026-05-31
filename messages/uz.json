@@ -9,7 +9,9 @@
     "about": "Biz haqimizda",
     "loans": "Kreditlar",
     "loanCalculator": "Kredit kalkulyatori",
-    "currencyConverter": "Valyuta konvertori"
+    "currencyConverter": "Valyuta konvertori",
+    "faq": "FAQ",
+    "contact": "Aloqa"
   },
   "languageSwitcher": {
     "label": "Til almashtirgich",
@@ -556,5 +558,92 @@
         }
       ]
     }
+  },
+  "faq": {
+    "meta": {
+      "title": "Tez-tez so‘raladigan savollar - Microcredit Bank",
+      "description": "Bank bilan bog‘lanish, ish vaqti va til qo‘llovi haqida tezkor javoblar."
+    },
+    "hero": {
+      "eyebrow": "Tez-tez so‘raladigan savollar",
+      "title": "Akkordeon ko‘rinishidagi qisqa javoblar",
+      "subtitle": "Sahifani tark etmasdan eng ko‘p so‘raladigan savollarni ko‘ring."
+    },
+    "items": [
+      {
+        "question": "Bank bilan qanday bog‘lanaman?",
+        "answer": "Siz qo‘ng‘iroq qilishingiz, email yozishingiz yoki aloqa sahifasidagi formadan foydalanishingiz mumkin."
+      },
+      {
+        "question": "Ish vaqtingiz qachon?",
+        "answer": "Jamoamiz dushanbadan jumagacha 09:00 dan 18:00 gacha, shanba kuni esa 09:00 dan 13:00 gacha ishlaydi."
+      },
+      {
+        "question": "Onlayn yozish mumkinmi?",
+        "answer": "Ha. Aloqa formasidan foydalaning, biz ish vaqti ichida javob beramiz."
+      },
+      {
+        "question": "Bir nechta til qo‘llab-quvvatlanadimi?",
+        "answer": "Ha. Sayt o‘zbek, ingliz va rus tillarida mavjud."
+      }
+    ]
+  },
+  "contact": {
+    "meta": {
+      "title": "Biz bilan bog‘lanish",
+      "description": "Manzil, telefon, email, ish vaqti va xabar yuborish formasi."
+    },
+    "hero": {
+      "eyebrow": "Aloqa",
+      "title": "Jamoamiz bilan bog‘laning",
+      "subtitle": "Sizga qulay kanalni tanlang yoki quyidagi forma orqali xabar yuboring."
+    },
+    "details": {
+      "eyebrow": "Aloqa ma’lumotlari",
+      "title": "Bog‘lanish usullari",
+      "subtitle": "Filialga tashrif buyuring, qo‘ng‘iroq qiling, yozing yoki onlayn bog‘laning.",
+      "items": [
+        {
+          "label": "Manzil",
+          "value": "12 Mustaqillik shoh ko‘chasi, Toshkent, O‘zbekiston"
+        },
+        {
+          "label": "Telefon",
+          "value": "+998 71 000 00 00",
+          "href": "tel:+998710000000"
+        },
+        {
+          "label": "Email",
+          "value": "info@microcreditbank.uz",
+          "href": "mailto:info@microcreditbank.uz"
+        },
+        {
+          "label": "Ish vaqti",
+          "value": "Dushanba–Juma: 09:00–18:00\nShanba: 09:00–13:00\nYakshanba: yopiq"
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Xabar yuborish",
+      "title": "Qanday yordam bera olishimizni yozing",
+      "subtitle": "Formani to‘ldiring, biz ish vaqti ichida javob beramiz.",
+      "fullNameLabel": "Ism va familiya",
+      "emailLabel": "Email",
+      "phoneLabel": "Telefon",
+      "subjectLabel": "Mavzu",
+      "messageLabel": "Xabar",
+      "submit": "Xabar yuborish",
+      "placeholders": {
+        "fullName": "Ismingiz",
+        "email": "you@example.com",
+        "phone": "+998 90 123 45 67",
+        "subject": "Qanday yordam bera olamiz?",
+        "message": "So‘rovingiz tafsilotlarini yozing"
+      },
+      "note": "Bu faqat maket uchun demo forma.",
+      "success": "Rahmat. Bu demo forma hali xabar yubormaydi."
+    },
+    "phone": "+998 71 000 00 00",
+    "phoneLink": "+998710000000"
   }
 }

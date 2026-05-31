@@ -9,7 +9,9 @@
     "about": "About us",
     "loans": "Loan products",
     "loanCalculator": "Loan calculator",
-    "currencyConverter": "Currency converter"
+    "currencyConverter": "Currency converter",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "languageSwitcher": {
     "label": "Language switcher",
@@ -556,5 +558,92 @@
         }
       ]
     }
+  },
+  "faq": {
+    "meta": {
+      "title": "Frequently Asked Questions - Microcredit Bank",
+      "description": "Find quick answers about contacting the bank, service hours, and language support."
+    },
+    "hero": {
+      "eyebrow": "Frequently asked questions",
+      "title": "Quick answers in an accordion layout",
+      "subtitle": "Browse the most common questions without leaving the page."
+    },
+    "items": [
+      {
+        "question": "How can I contact the bank?",
+        "answer": "You can call, email, or use the contact form on the contact page."
+      },
+      {
+        "question": "What are your working hours?",
+        "answer": "Our team is available Monday to Friday from 09:00 to 18:00 and Saturday from 09:00 to 13:00."
+      },
+      {
+        "question": "Can I write to you online?",
+        "answer": "Yes. Use the contact form and we will reply during business hours."
+      },
+      {
+        "question": "Do you support multiple languages?",
+        "answer": "Yes. The site is available in Uzbek, English, and Russian."
+      }
+    ]
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact us",
+      "description": "Find our address, phone number, email, working hours, and send a message through the form."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Reach our team",
+      "subtitle": "Choose the channel that works best for you or send us a message below."
+    },
+    "details": {
+      "eyebrow": "Contact details",
+      "title": "Ways to reach us",
+      "subtitle": "Visit the branch, call, email, or contact us online.",
+      "items": [
+        {
+          "label": "Address",
+          "value": "12 Mustaqillik Avenue, Tashkent, Uzbekistan"
+        },
+        {
+          "label": "Phone",
+          "value": "+998 71 000 00 00",
+          "href": "tel:+998710000000"
+        },
+        {
+          "label": "Email",
+          "value": "info@microcreditbank.uz",
+          "href": "mailto:info@microcreditbank.uz"
+        },
+        {
+          "label": "Working hours",
+          "value": "Mon–Fri: 09:00–18:00\nSat: 09:00–13:00\nSun: Closed"
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Send a message",
+      "title": "Tell us how we can help",
+      "subtitle": "Fill in the form and we will get back to you during business hours.",
+      "fullNameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "subjectLabel": "Subject",
+      "messageLabel": "Message",
+      "submit": "Send message",
+      "placeholders": {
+        "fullName": "Your name",
+        "email": "you@example.com",
+        "phone": "+998 90 123 45 67",
+        "subject": "How can we help?",
+        "message": "Share the details of your request"
+      },
+      "note": "This is a demo form for layout purposes only.",
+      "success": "Thanks. This demo form does not send messages yet."
+    },
+    "phone": "+998 71 000 00 00",
+    "phoneLink": "+998710000000"
   }
 }
