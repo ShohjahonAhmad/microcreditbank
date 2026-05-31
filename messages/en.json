@@ -1,0 +1,23 @@
+{
+  "brand": {
+    "name": "Microcredit Bank"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "home": "Home"
+  },
+  "languageSwitcher": {
+    "label": "Language switcher",
+    "uz": "UZ",
+    "en": "EN",
+    "ru": "RU"
+  },
+  "footer": {
+    "copy": "© 2026 Microcredit Bank"
+  },
+  "home": {
+    "kicker": "Localized foundation",
+    "title": "Microcredit bank website",
+    "subtitle": "The multilingual shell is ready for Uzbek, English, and Russian content."
+  }
+}

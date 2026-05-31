@@ -1,0 +1,23 @@
+{
+  "brand": {
+    "name": "Mikrokredit Bank"
+  },
+  "navigation": {
+    "label": "Asosiy navigatsiya",
+    "home": "Bosh sahifa"
+  },
+  "languageSwitcher": {
+    "label": "Til almashtirgich",
+    "uz": "UZ",
+    "en": "EN",
+    "ru": "RU"
+  },
+  "footer": {
+    "copy": "© 2026 Mikrokredit Bank"
+  },
+  "home": {
+    "kicker": "Lokalizatsiya asoslari",
+    "title": "Mikrokredit bank sayti",
+    "subtitle": "Ko‘p tilli asos tayyor: o‘zbek, ingliz va rus tillari."
+  }
+}
