@@ -30,24 +30,47 @@ export function Header({ locale, dictionary }: HeaderProps) {
               {dictionary.brand.name}
             </span>
             <span className="text-xs uppercase tracking-[0.24em] text-slate-500">
-              Uzbekistan
+              {dictionary.brand.location}
             </span>
           </span>
         </Link>
 
         <div className="flex items-center gap-4">
-          <nav aria-label={dictionary.navigation.label} className="hidden sm:block">
-            <Link
-              href={getLocalePath(locale)}
-              className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-amber-300 hover:bg-amber-50 hover:text-slate-950"
-            >
-              {dictionary.navigation.home}
-            </Link>
+          <nav
+            aria-label={dictionary.navigation.label}
+            className="hidden gap-2 md:flex"
+          >
+            <NavLink href={getLocalePath(locale)} localeLabel={dictionary.navigation.home} />
+            <NavLink
+              href={getLocalePath(locale, "about")}
+              localeLabel={dictionary.navigation.about}
+            />
+            <NavLink
+              href={getLocalePath(locale, "loans")}
+              localeLabel={dictionary.navigation.loans}
+            />
           </nav>
 
           <LanguageSwitcher locale={locale} dictionary={dictionary} />
         </div>
       </div>
     </header>
+  );
+}
+
+function NavLink({
+  href,
+  localeLabel,
+}: {
+  href: string;
+  localeLabel: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition hover:border-amber-300 hover:bg-amber-50 hover:text-slate-950"
+    >
+      {localeLabel}
+    </Link>
   );
 }

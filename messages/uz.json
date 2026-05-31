@@ -1,10 +1,13 @@
 {
   "brand": {
-    "name": "Mikrokredit Bank"
+    "name": "Mikrokredit Bank",
+    "location": "O‘zbekiston"
   },
   "navigation": {
     "label": "Asosiy navigatsiya",
-    "home": "Bosh sahifa"
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "loans": "Kreditlar"
   },
   "languageSwitcher": {
     "label": "Til almashtirgich",
@@ -16,7 +19,259 @@
     "skipToContent": "Kontentga o‘tish"
   },
   "footer": {
-    "copy": "© 2026 Mikrokredit Bank"
+    "copy": "© 2026 Mikrokredit Bank",
+    "summary": "O‘zbekistondagi xususiy mikrokredit banki.",
+    "linksLabel": "Tezkor havolalar"
+  },
+  "about": {
+    "meta": {
+      "title": "Biz haqimizda",
+      "description": "Bankning missiyasi, qarashi, qadriyatlari, tarixi va rahbariyati bilan tanishing."
+    },
+    "hero": {
+      "eyebrow": "Bank haqida",
+      "title": "Aniqlik, ishonch va mahalliy xizmatga tayangan xususiy mikrokredit bank",
+      "subtitle": "Ushbu namunaviy korporativ hikoya premium tuyg‘u, sodda til va keyinchalik kengaytirish mumkin bo‘lgan kontent bilan zamonaviy bank brendi uchun tayyorlangan.",
+      "primaryCta": "Kredit mahsulotlarini ko‘rish",
+      "secondaryCta": "Jamoamiz bilan bog‘lanish",
+      "highlights": [
+        "Xususiy bank",
+        "O‘zbekiston bozori",
+        "Ko‘p tilli xizmat"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Kompaniya haqida",
+      "title": "Kundalik kredit ehtiyojlari uchun yo‘naltirilgan moliyaviy institut",
+      "description": "Microcredit Bank bu yerda sokin raqamli ko‘rinish, aniq mahsulot taqdimoti va kuchli mahalliy identifikatsiyaga ega zamonaviy xususiy bank konsepti sifatida ko‘rsatilgan.",
+      "facts": [
+        {
+          "label": "Bosh ofis",
+          "value": "Toshkent, O‘zbekiston"
+        },
+        {
+          "label": "Bozor yo‘nalishi",
+          "value": "Chakana va kichik biznes kreditlash"
+        },
+        {
+          "label": "Xizmat modeli",
+          "value": "Filiallar va raqamli qo‘llab-quvvatlash"
+        }
+      ]
+    },
+    "mission": {
+      "eyebrow": "Missiya",
+      "title": "Kreditlashni tushunarli qilish",
+      "text": "Biz kredit mahsulotlarini aniq shartlar, shaffof aloqa va sokin mijoz tajribasi bilan taqdim etishni maqsad qilamiz."
+    },
+    "vision": {
+      "eyebrow": "Vizyon",
+      "title": "Ishonchli mahalliy bankga aylanish",
+      "text": "Oilalar va tadbirkorlar amaliy moliyalashtirishga muhtoj bo‘lganda birinchi bo‘lib bizni eslashlarini xohlaymiz."
+    },
+    "values": {
+      "eyebrow": "Qadriyatlar",
+      "title": "Har bir aloqaning asosidagi tamoyillar",
+      "subtitle": "Quyidagi qadriyatlar kelajakdagi brend va mahsulot xabarlariga asos bo‘la oladi.",
+      "items": [
+        {
+          "title": "Shaffoflik",
+          "text": "Oddiy mahsulot tili va to‘g‘ridan-to‘g‘ri shartlar."
+        },
+        {
+          "title": "Ishonchlilik",
+          "text": "Barqaror xizmat va mustahkam mijoz qo‘llovi."
+        },
+        {
+          "title": "Mahalliy fokus",
+          "text": "O‘zbekiston bozoriga moslashtirilgan bank modeli."
+        },
+        {
+          "title": "Amaliy xizmat",
+          "text": "Haqiqiy mijoz ehtiyojlariga tayangan foydali moliyalashtirish."
+        }
+      ]
+    },
+    "history": {
+      "eyebrow": "Tarix",
+      "title": "Bank hikoyasi uchun namunaviy bosqichlar",
+      "subtitle": "Bu vaqt jadvalidan kelajakdagi yangilanishlar uchun kontent asosi sifatida foydalaning.",
+      "items": [
+        {
+          "year": "2021",
+          "title": "Brend konsepti",
+          "text": "Zamonaviy bank identifikatsiyasi shakllantiriladi."
+        },
+        {
+          "year": "2022",
+          "title": "Xizmat modeli",
+          "text": "Mahsulot tuzilmasi va foydalanuvchi tajribasi belgilanadi."
+        },
+        {
+          "year": "2024",
+          "title": "Raqamli mavjudlik",
+          "text": "Ochiq sayt ko‘p tilli rivojlanishga tayyorlanadi."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "Rahbariyat",
+      "title": "Aniq mas’uliyatga ega kichik ijrochi jamoa",
+      "subtitle": "Profil ma’lumotlari namunaviy kontent bo‘lib, keyinchalik kengaytirilishi mumkin.",
+      "items": [
+        {
+          "name": "Rustam Karimov",
+          "role": "Bosh ijrochi direktor",
+          "text": "Bankning umumiy strategiyasi va xizmat yo‘nalishini boshqaradi."
+        },
+        {
+          "name": "Dilnoza Axmedova",
+          "role": "Operatsion direktor",
+          "text": "Jarayon sifati, xizmat yetkazilishi va operatsion aniqlikka mas’ul."
+        },
+        {
+          "name": "Sardor Yusufov",
+          "role": "Risklar bo‘yicha direktor",
+          "text": "Kredit intizomi, ko‘rib chiqish standartlari va portfel sifatini nazorat qiladi."
+        }
+      ]
+    }
+  },
+  "loans": {
+    "meta": {
+      "title": "Kredit mahsulotlari",
+      "description": "Turli mijoz ehtiyojlari uchun sozlanadigan kredit mahsulotlari, namunaviy shartlar va taxminiy stavkalar bilan tanishing."
+    },
+    "hero": {
+      "eyebrow": "Kredit mahsulotlari",
+      "title": "Aniq bank formatida taqdim etilgan moslashuvchan namuna mahsulotlar",
+      "subtitle": "Ushbu sahifa yangi takliflar bilan birga kengayishga tayyor va barcha ko‘rinadigan matnlar tarjima qilinadi.",
+      "primaryCta": "Maslahat so‘rash",
+      "secondaryCta": "Bank haqida",
+      "highlights": [
+        "Sozlanadigan stavkalar",
+        "Namuna shartlar",
+        "Moslashuvchan kartalar"
+      ]
+    },
+    "products": {
+      "eyebrow": "Mahsulotlar ro‘yxati",
+      "title": "To‘rtta namuna kredit taklifi",
+      "subtitle": "Har bir karta kelajakdagi takliflarni maketni o‘zgartirmasdan almashtirish uchun sozlanadigan kontentdan foydalanadi.",
+      "amountLabel": "Miqdor",
+      "termLabel": "Muddati",
+      "rateLabel": "Foiz",
+      "items": [
+        {
+          "title": "Individual kredit",
+          "description": "Kundalik moliyaviy ehtiyojlar uchun oddiy iste’mol krediti.",
+          "amount": "100 000 000 so‘mgacha",
+          "term": "36 oygacha",
+          "rate": "26% dan",
+          "note": "Shaxsiy moliyalashtirish uchun tezkor ko‘rib chiqish."
+        },
+        {
+          "title": "Biznes krediti",
+          "description": "Aylanma mablag‘ va kichik biznes o‘sishi uchun moslashuvchan moliyalashtirish.",
+          "amount": "500 000 000 so‘mgacha",
+          "term": "48 oygacha",
+          "rate": "24% dan",
+          "note": "Faol tadbirkorlar uchun mos tuzilma."
+        },
+        {
+          "title": "Qishloq xo‘jaligi krediti",
+          "description": "Fermer xo‘jaligi va texnika uchun mavsumiy moliyalashtirish.",
+          "amount": "300 000 000 so‘mgacha",
+          "term": "24 oygacha",
+          "rate": "22% dan",
+          "note": "Qishloq xo‘jaligi sikliga mos."
+        },
+        {
+          "title": "Mikromoliya krediti",
+          "description": "Mahalliy mijozlar va mikro biznes uchun kichik hajmdagi yordam.",
+          "amount": "50 000 000 so‘mgacha",
+          "term": "24 oygacha",
+          "rate": "28% dan",
+          "note": "Oddiy, qulay va tushunarli."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Nega biz",
+      "title": "Kreditlar bo‘yicha kelajak xabarlari uchun oddiy asos",
+      "subtitle": "Bu afzalliklar sahifa mazmunini saqlab qolish va oson kengaytirishga yordam beradi.",
+      "items": [
+        {
+          "title": "Tushunarli taqqoslash",
+          "text": "Har bir mahsulot asosiy tafsilotlarni bir joyda ko‘rsatadi."
+        },
+        {
+          "title": "Moslashuvchan tuzilma",
+          "text": "Yangi mahsulotlar faqat kontent orqali qo‘shilishi mumkin."
+        },
+        {
+          "title": "Premium taqdimot",
+          "text": "Dizayn yorug‘, o‘qilishi oson va ishonchli bo‘lib qoladi."
+        }
+      ]
+    },
+    "criteria": {
+      "eyebrow": "Shartlar",
+      "title": "Arizachi uchun namunaviy talablar",
+      "subtitle": "Bu placeholder shartlar keyinroq maketni o‘zgartirmasdan almashtirilishi mumkin.",
+      "items": [
+        {
+          "label": "Yosh",
+          "value": "18 yoshdan"
+        },
+        {
+          "label": "Ko‘rib chiqish vaqti",
+          "value": "2 ish kunigacha"
+        },
+        {
+          "label": "Hujjatlar",
+          "value": "Pasport va daromad ma’lumotlari"
+        },
+        {
+          "label": "Qo‘llab-quvvatlash",
+          "value": "Arizadan oldingi maslahat"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Qanday ishlaydi",
+      "title": "Uch bosqichli sodda yo‘l",
+      "subtitle": "Maketni kelajakdagi mahsulotlar va xizmat jarayonlari uchun qayta ishlatish mumkin.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Mahsulotni tanlang",
+          "text": "Kartalarni solishtiring va eng mos taklifni tanlang."
+        },
+        {
+          "step": "02",
+          "title": "Shartlarni ko‘rib chiqing",
+          "text": "Miqdor, muddat va taxminiy stavkani tekshiring."
+        },
+        {
+          "step": "03",
+          "title": "Jamoa bilan bog‘laning",
+          "text": "Tezkor maslahat uchun quyidagi aloqa ma’lumotlaridan foydalaning."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Yordam kerakmi?",
+      "title": "To‘g‘ri kredit haqida jamoamiz bilan gaplashing",
+      "subtitle": "Tezkor maslahat uchun quyidagi aloqa ma’lumotlaridan foydalaning.",
+      "primaryCta": "Hozir qo‘ng‘iroq qiling",
+      "secondaryCta": "Email yozish",
+      "phoneLabel": "Telefon",
+      "phone": "+998 71 000 00 00",
+      "phoneLink": "+998710000000",
+      "emailLabel": "Email",
+      "email": "info@microcreditbank.uz"
+    }
   },
   "home": {
     "hero": {

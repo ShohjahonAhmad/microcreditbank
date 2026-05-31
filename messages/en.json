@@ -1,10 +1,13 @@
 {
   "brand": {
-    "name": "Microcredit Bank"
+    "name": "Microcredit Bank",
+    "location": "Uzbekistan"
   },
   "navigation": {
     "label": "Main navigation",
-    "home": "Home"
+    "home": "Home",
+    "about": "About us",
+    "loans": "Loan products"
   },
   "languageSwitcher": {
     "label": "Language switcher",
@@ -16,7 +19,259 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "copy": "© 2026 Microcredit Bank"
+    "copy": "© 2026 Microcredit Bank",
+    "summary": "Private microcredit banking in Uzbekistan.",
+    "linksLabel": "Quick links"
+  },
+  "about": {
+    "meta": {
+      "title": "About us",
+      "description": "Learn about the bank's mission, vision, values, history, and leadership."
+    },
+    "hero": {
+      "eyebrow": "About the bank",
+      "title": "A private microcredit bank built around clarity, trust, and local service",
+      "subtitle": "This placeholder company story is structured for a modern banking brand with a premium feel, simple language, and content that can grow over time.",
+      "primaryCta": "Explore loan products",
+      "secondaryCta": "Contact our team",
+      "highlights": [
+        "Private banking",
+        "Uzbek market",
+        "Multilingual service"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Company overview",
+      "title": "A focused financial institution for everyday lending needs",
+      "description": "Microcredit Bank is presented here as a modern private bank concept with a calm digital presence, clear product communication, and a strong local identity.",
+      "facts": [
+        {
+          "label": "Head office",
+          "value": "Tashkent, Uzbekistan"
+        },
+        {
+          "label": "Market focus",
+          "value": "Retail and small business lending"
+        },
+        {
+          "label": "Service model",
+          "value": "Branches and digital support"
+        }
+      ]
+    },
+    "mission": {
+      "eyebrow": "Mission",
+      "title": "Make lending easier to understand",
+      "text": "We aim to present loan products with clear terms, transparent communication, and a calm customer experience."
+    },
+    "vision": {
+      "eyebrow": "Vision",
+      "title": "Become a trusted neighborhood bank",
+      "text": "We want to be the first place families and entrepreneurs think of when they need practical financing."
+    },
+    "values": {
+      "eyebrow": "Values",
+      "title": "The principles behind every interaction",
+      "subtitle": "The values below can drive future brand and product messaging.",
+      "items": [
+        {
+          "title": "Transparency",
+          "text": "Simple product language and direct terms."
+        },
+        {
+          "title": "Reliability",
+          "text": "Consistent service and steady customer support."
+        },
+        {
+          "title": "Local focus",
+          "text": "A banking model tailored to the Uzbek market."
+        },
+        {
+          "title": "Practical service",
+          "text": "Useful financing built around real customer needs."
+        }
+      ]
+    },
+    "history": {
+      "eyebrow": "History timeline",
+      "title": "Placeholder milestones for the bank story",
+      "subtitle": "Use this timeline as a content-driven framework for future updates.",
+      "items": [
+        {
+          "year": "2021",
+          "title": "Brand concept",
+          "text": "A modern banking identity is outlined."
+        },
+        {
+          "year": "2022",
+          "title": "Service framework",
+          "text": "The product structure and user experience are defined."
+        },
+        {
+          "year": "2024",
+          "title": "Digital presence",
+          "text": "The public website is prepared for multilingual growth."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "Leadership",
+      "title": "A small executive team with clear accountability",
+      "subtitle": "Profiles are placeholder content and can be expanded later.",
+      "items": [
+        {
+          "name": "Rustam Karimov",
+          "role": "Chief Executive Officer",
+          "text": "Leads the bank's overall strategy and service direction."
+        },
+        {
+          "name": "Dilnoza Ahmedova",
+          "role": "Chief Operations Officer",
+          "text": "Focuses on process quality, service delivery, and operational clarity."
+        },
+        {
+          "name": "Sardor Yusupov",
+          "role": "Chief Risk Officer",
+          "text": "Oversees lending discipline, review standards, and portfolio quality."
+        }
+      ]
+    }
+  },
+  "loans": {
+    "meta": {
+      "title": "Loan products",
+      "description": "Explore configurable loan products, sample terms, and placeholder rates for different customer needs."
+    },
+    "hero": {
+      "eyebrow": "Loan products",
+      "title": "Flexible sample products presented in a clear banking format",
+      "subtitle": "This page is structured to scale with new offers while keeping every visible string translatable.",
+      "primaryCta": "Request a consultation",
+      "secondaryCta": "About the bank",
+      "highlights": [
+        "Configurable rates",
+        "Placeholder terms",
+        "Responsive cards"
+      ]
+    },
+    "products": {
+      "eyebrow": "Product list",
+      "title": "Four sample loan offerings",
+      "subtitle": "Each card uses configurable content so future offers can be swapped in without changing the layout.",
+      "amountLabel": "Amount",
+      "termLabel": "Term",
+      "rateLabel": "Rate",
+      "items": [
+        {
+          "title": "Individual Loan",
+          "description": "A simple consumer product for day-to-day financial needs.",
+          "amount": "Up to 100 000 000 UZS",
+          "term": "Up to 36 months",
+          "rate": "From 26%",
+          "note": "Fast review for personal financing."
+        },
+        {
+          "title": "Business Loan",
+          "description": "Flexible financing for working capital and small business growth.",
+          "amount": "Up to 500 000 000 UZS",
+          "term": "Up to 48 months",
+          "rate": "From 24%",
+          "note": "Structured for active entrepreneurs."
+        },
+        {
+          "title": "Agricultural Loan",
+          "description": "Seasonal financing for farm operations and equipment support.",
+          "amount": "Up to 300 000 000 UZS",
+          "term": "Up to 24 months",
+          "rate": "From 22%",
+          "note": "Built around the agricultural cycle."
+        },
+        {
+          "title": "Microfinance Loan",
+          "description": "Smaller loan amounts for local customers and microbusinesses.",
+          "amount": "Up to 50 000 000 UZS",
+          "term": "Up to 24 months",
+          "rate": "From 28%",
+          "note": "Simple, accessible, and readable."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why choose us",
+      "title": "A simple framework for future loan messaging",
+      "subtitle": "These benefits keep the page content-driven and easy to expand later.",
+      "items": [
+        {
+          "title": "Clear comparison",
+          "text": "Each product exposes the core details in one place."
+        },
+        {
+          "title": "Flexible structure",
+          "text": "New products can be added by updating content only."
+        },
+        {
+          "title": "Premium presentation",
+          "text": "The design keeps the experience light, readable, and trustworthy."
+        }
+      ]
+    },
+    "criteria": {
+      "eyebrow": "Eligibility",
+      "title": "Sample conditions for applicants",
+      "subtitle": "Placeholder criteria that can be replaced later without changing the layout.",
+      "items": [
+        {
+          "label": "Age",
+          "value": "From 18 years"
+        },
+        {
+          "label": "Review time",
+          "value": "Up to 2 business days"
+        },
+        {
+          "label": "Required documents",
+          "value": "ID and income details"
+        },
+        {
+          "label": "Support",
+          "value": "Consultation before application"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "A simple three-step journey",
+      "subtitle": "The layout is reusable for future product flows and service updates.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Choose a product",
+          "text": "Compare the cards and pick the most relevant offer."
+        },
+        {
+          "step": "02",
+          "title": "Review the terms",
+          "text": "Check the amount range, term, and indicative rate."
+        },
+        {
+          "step": "03",
+          "title": "Talk to the team",
+          "text": "Use the contact details below for a quick consultation."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Need help?",
+      "title": "Talk to our team about the right loan",
+      "subtitle": "Use the contact details below for a quick consultation.",
+      "primaryCta": "Call now",
+      "secondaryCta": "Email us",
+      "phoneLabel": "Phone",
+      "phone": "+998 71 000 00 00",
+      "phoneLink": "+998710000000",
+      "emailLabel": "Email",
+      "email": "info@microcreditbank.uz"
+    }
   },
   "home": {
     "hero": {
