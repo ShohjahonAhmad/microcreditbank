@@ -57,6 +57,11 @@ export function Header({ locale, dictionary }: HeaderProps) {
               href={getLocalePath(locale, "currency-converter")}
               localeLabel={dictionary.navigation.currencyConverter}
             />
+            <NavLink href={getLocalePath(locale, "faq")} localeLabel={dictionary.navigation.faq} />
+            <NavLink
+              href={getLocalePath(locale, "contact")}
+              localeLabel={dictionary.navigation.contact}
+            />
           </nav>
 
           <LanguageSwitcher locale={locale} dictionary={dictionary} />
