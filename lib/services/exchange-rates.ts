@@ -10,8 +10,8 @@ export type ExchangeRateProvider = {
 
 export const mockExchangeRates: ExchangeRates = {
   UZS: 1,
-  USD: 12_550,
-  RUB: 135,
+  USD: 1 / 12_550,
+  RUB: 1 / 135,
 };
 
 export const mockExchangeRateProvider: ExchangeRateProvider = {
@@ -25,7 +25,7 @@ export function getExchangeRate(
   to: CurrencyCode,
   rates: ExchangeRates,
 ) {
-  return rates[from] / rates[to];
+  return rates[to] / rates[from];
 }
 
 export function convertCurrency(

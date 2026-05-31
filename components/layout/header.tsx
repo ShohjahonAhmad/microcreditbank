@@ -38,7 +38,7 @@ export function Header({ locale, dictionary }: HeaderProps) {
         <div className="flex items-center gap-4">
           <nav
             aria-label={dictionary.navigation.label}
-            className="hidden flex-wrap gap-2 lg:flex"
+            className="hidden flex-wrap gap-2 md:flex"
           >
             <NavLink href={getLocalePath(locale)} localeLabel={dictionary.navigation.home} />
             <NavLink

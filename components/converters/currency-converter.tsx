@@ -43,7 +43,7 @@ export function CurrencyConverter({
 
   const baseRates = supportedCurrencies.map((currency) => ({
     currency,
-    value: rates[currency],
+    value: currency === "UZS" ? 1 : 1 / rates[currency],
   }));
 
   return (
