@@ -7,7 +7,9 @@
     "label": "Asosiy navigatsiya",
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
-    "loans": "Kreditlar"
+    "loans": "Kreditlar",
+    "loanCalculator": "Kredit kalkulyatori",
+    "currencyConverter": "Valyuta konvertori"
   },
   "languageSwitcher": {
     "label": "Til almashtirgich",
@@ -445,6 +447,114 @@
       "phoneLink": "+998710000000",
       "emailLabel": "Email",
       "email": "info@microcreditbank.uz"
+    }
+  },
+  "loanCalculator": {
+    "meta": {
+      "title": "Kredit kalkulyatori",
+      "description": "Qayta foydalaniladigan kredit formulasi yordamida oylik to‘lov, jami summa va foizlarni hisoblang."
+    },
+    "hero": {
+      "eyebrow": "Kredit kalkulyatori",
+      "title": "Qayta foydalaniladigan formula bilan oylik to‘lovni baholang",
+      "subtitle": "Kredit miqdori, muddati va yillik foiz stavkasini kiriting va oddiy qaytarish jadvalini ko‘ring.",
+      "highlights": [
+        "Qayta foydalaniladigan mantiq",
+        "Lokalizatsiyalangan yozuvlar",
+        "Moslashuvchan dizayn"
+      ]
+    },
+    "calculator": {
+      "eyebrow": "Kalkulyator",
+      "title": "Turli kredit ssenariylarini sinab ko‘ring",
+      "subtitle": "Formula keyinchalik o‘zgartirilishi uchun lib/calculators/loan.ts fayliga ajratilgan.",
+      "currency": "UZS",
+      "inputs": {
+        "amount": "Kredit summasi",
+        "term": "Muddati (oy)",
+        "rate": "Foiz stavkasi (%)"
+      },
+      "note": "Namuna hisoblash uchun standart annuitet formulasi ishlatiladi."
+    },
+    "results": {
+      "eyebrow": "Natijalar",
+      "title": "To‘lov tafsiloti",
+      "subtitle": "Ko‘rsatkichlar forma o‘zgargan sari yangilanadi.",
+      "monthlyPayment": "Oylik to‘lov",
+      "totalPayment": "Jami to‘lov",
+      "totalInterest": "Jami foiz"
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Formula",
+          "title": "Kelajakdagi qoida o‘zgarishlariga tayyor",
+          "text": "Hisoblash mantiqi alohida yordamchi ichida joylashgan, shuning uchun sahifa tartibini o‘zgartirmasdan keyinroq yangi mahsulot qoidasini almashtirish mumkin."
+        },
+        {
+          "label": "Kiritish",
+          "title": "Oddiy va qulay maydonlar",
+          "text": "Summа, muddat va stavka maydonlari yozuvlar bilan ta’minlangan, klaviatura uchun qulay va keyinroq kuchliroq tekshiruvga almashtirish oson."
+        }
+      ]
+    }
+  },
+  "currencyConverter": {
+    "meta": {
+      "title": "Valyuta konvertori",
+      "description": "UZS, USD va RUB o‘rtasida mock kurslar yordamida konvertatsiya qiling."
+    },
+    "hero": {
+      "eyebrow": "Valyuta konvertori",
+      "title": "UZS, USD va RUB orasida konvertatsiya qiling",
+      "subtitle": "Oddiy konvertatsiya jarayonini ko‘rish uchun mock kurs provayderidan foydalaning.",
+      "highlights": [
+        "Mock provayder",
+        "Uchta valyuta",
+        "Keyinroq almashtirish oson"
+      ]
+    },
+    "converter": {
+      "eyebrow": "Konvertor",
+      "title": "Valyutalarni solishtiring",
+      "subtitle": "Kurs xizmati lib/services/exchange-rates.ts ichida alohida ajratilgan.",
+      "note": "Mock kurslar",
+      "inputs": {
+        "amount": "Miqdor",
+        "from": "Qaysi valyutadan",
+        "to": "Qaysi valyutaga"
+      },
+      "helper": "Kurslar UZS asosidagi jadvalga tayangan va keyinroq jonli API bilan almashtirilishi mumkin.",
+      "currencyNames": {
+        "UZS": "o‘zbek so‘mi",
+        "USD": "AQSh dollari",
+        "RUB": "Rossiya rubli"
+      }
+    },
+    "results": {
+      "eyebrow": "Konvertatsiya qilingan qiymat",
+      "title": "Jonli ko‘rinish",
+      "subtitle": "Yo‘nalishni tanlang va natija darhol yangilanadi.",
+      "convertedAmount": "Konvertatsiya qilingan summa",
+      "exchangeRate": "Almashuv kursi",
+      "referenceRate": "Ma’lumot kursi"
+    },
+    "reference": {
+      "label": "Kurslar haqida",
+      "items": [
+        {
+          "currency": "UZS",
+          "text": "Mock kurslar uchun asosiy valyuta."
+        },
+        {
+          "currency": "USD",
+          "text": "Asosiy xorijiy valyuta misoli sifatida ko‘rsatilgan."
+        },
+        {
+          "currency": "RUB",
+          "text": "Mintaqaviy taqqoslash uchun kiritilgan."
+        }
+      ]
     }
   }
 }

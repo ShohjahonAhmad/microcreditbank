@@ -7,7 +7,9 @@
     "label": "Main navigation",
     "home": "Home",
     "about": "About us",
-    "loans": "Loan products"
+    "loans": "Loan products",
+    "loanCalculator": "Loan calculator",
+    "currencyConverter": "Currency converter"
   },
   "languageSwitcher": {
     "label": "Language switcher",
@@ -445,6 +447,114 @@
       "phoneLink": "+998710000000",
       "emailLabel": "Email",
       "email": "info@microcreditbank.uz"
+    }
+  },
+  "loanCalculator": {
+    "meta": {
+      "title": "Loan calculator",
+      "description": "Estimate monthly payments, total payment, and total interest with a reusable loan formula."
+    },
+    "hero": {
+      "eyebrow": "Loan calculator",
+      "title": "Estimate a monthly repayment with a reusable loan formula",
+      "subtitle": "Enter the loan amount, term, and annual interest rate to preview a simple repayment schedule.",
+      "highlights": [
+        "Reusable logic",
+        "Localized labels",
+        "Responsive layout"
+      ]
+    },
+    "calculator": {
+      "eyebrow": "Calculator",
+      "title": "Test different loan scenarios",
+      "subtitle": "The formula is isolated in lib/calculators/loan.ts so it can evolve later.",
+      "currency": "UZS",
+      "inputs": {
+        "amount": "Loan amount",
+        "term": "Term (months)",
+        "rate": "Interest rate (%)"
+      },
+      "note": "A standard annuity formula is used for the sample calculation."
+    },
+    "results": {
+      "eyebrow": "Results",
+      "title": "Repayment breakdown",
+      "subtitle": "The outputs update as you edit the form.",
+      "monthlyPayment": "Monthly payment",
+      "totalPayment": "Total payment",
+      "totalInterest": "Total interest"
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Formula",
+          "title": "Built for future rule changes",
+          "text": "The calculation logic lives in a dedicated helper so a new product rule can be swapped in later without touching the page layout."
+        },
+        {
+          "label": "Inputs",
+          "title": "Simple and accessible controls",
+          "text": "Amount, term, and rate fields are all labeled, keyboard-friendly, and easy to replace with stronger validation later."
+        }
+      ]
+    }
+  },
+  "currencyConverter": {
+    "meta": {
+      "title": "Currency converter",
+      "description": "Convert between UZS, USD, and RUB with a mock exchange rate provider."
+    },
+    "hero": {
+      "eyebrow": "Currency converter",
+      "title": "Convert between UZS, USD, and RUB",
+      "subtitle": "Use the mock exchange rate provider to preview a simple currency conversion flow.",
+      "highlights": [
+        "Mock provider",
+        "Three currencies",
+        "Easy to replace later"
+      ]
+    },
+    "converter": {
+      "eyebrow": "Converter",
+      "title": "Compare currencies",
+      "subtitle": "The exchange-rate service is isolated in lib/services/exchange-rates.ts.",
+      "note": "Mock rates",
+      "inputs": {
+        "amount": "Amount",
+        "from": "From currency",
+        "to": "To currency"
+      },
+      "helper": "Rates are based on a UZS reference table and can be replaced later with a live API.",
+      "currencyNames": {
+        "UZS": "Uzbek soum",
+        "USD": "US dollar",
+        "RUB": "Russian ruble"
+      }
+    },
+    "results": {
+      "eyebrow": "Converted value",
+      "title": "Live preview",
+      "subtitle": "Choose a direction and the result updates instantly.",
+      "convertedAmount": "Converted amount",
+      "exchangeRate": "Exchange rate",
+      "referenceRate": "Reference rate"
+    },
+    "reference": {
+      "label": "Reference notes",
+      "items": [
+        {
+          "currency": "UZS",
+          "text": "Base currency used for mock rates."
+        },
+        {
+          "currency": "USD",
+          "text": "Shown as the main foreign currency example."
+        },
+        {
+          "currency": "RUB",
+          "text": "Included for regional comparisons."
+        }
+      ]
     }
   }
 }

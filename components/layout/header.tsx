@@ -38,7 +38,7 @@ export function Header({ locale, dictionary }: HeaderProps) {
         <div className="flex items-center gap-4">
           <nav
             aria-label={dictionary.navigation.label}
-            className="hidden gap-2 md:flex"
+            className="hidden flex-wrap gap-2 md:flex"
           >
             <NavLink href={getLocalePath(locale)} localeLabel={dictionary.navigation.home} />
             <NavLink
@@ -48,6 +48,14 @@ export function Header({ locale, dictionary }: HeaderProps) {
             <NavLink
               href={getLocalePath(locale, "loans")}
               localeLabel={dictionary.navigation.loans}
+            />
+            <NavLink
+              href={getLocalePath(locale, "loan-calculator")}
+              localeLabel={dictionary.navigation.loanCalculator}
+            />
+            <NavLink
+              href={getLocalePath(locale, "currency-converter")}
+              localeLabel={dictionary.navigation.currencyConverter}
             />
           </nav>
 
